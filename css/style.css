@@ -1,0 +1,125 @@
+body {
+	background-color: #FFFFFF;
+	max-width: auto;
+	margin: left;
+}
+div {
+	border: 0px solid black;
+	 position:relative;
+}
+.mein {
+	  width: auto;
+  height:400px;
+  overflow:hidden;
+  	position	: center;
+	width		: 100%; /* for IE 6 */
+}
+
+h4 {
+	position	: absolute;
+	top		: 200px;
+	left		: 0;
+	width		: 100%;
+}
+
+img{
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+h4 span {
+	color			: white;
+	font			: bold 20px/45px Helvetica, Sans-Serif;
+	letter-spacing		: -1px;
+	background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background		: rgba(0, 0, 0, 0.7);
+	padding			: 10px;
+}
+
+/* екст под фото*/
+
+h5 {
+		position	: absolute;
+	top		: 380px;  
+	left		: 0px;
+	width		: 100%;
+	color: #808080;
+}
+
+/*кнопка для меню*/
+
+
+a.button8 {
+  display: inline-block;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 0px solid;
+  border-radius: 0px;
+  transition: 0.2s;
+} 
+a.button8:hover { background: #808080; }
+a.button8:active { background: #696969; }
+
+/*кнопка задание*/
+a.button28 {
+  position: relative;
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 700;
+  color: rgb(209,209,217);
+  text-decoration: none;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  padding: .5em 1em;
+  outline: none;
+  border-radius: 3px;
+  background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5),
+   0 0 1px 1px rgba(0,1,6,.2);
+  transition: .2s ease-in-out;
+}
+a.button28:hover:not(:active) {
+  background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+}
+a.button28:active {
+  top: 1px;
+  background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+ 
+.fotog {
+	width: auto;
+  height:500px;
+  overflow:hidden;
+  	position	: center;
+	width		: 100%;
+}
+
+.fotog img {
+	position: absolute;
+	  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 300px;
+
+}
+.textus p, li {
+	color: #808080;
+}
+p.activ {
+	position: absolute;
+	top: 100px;
+	left: -250px;
+	width: 100%;
+}
+
